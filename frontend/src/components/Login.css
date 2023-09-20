@@ -1,0 +1,71 @@
+/* AdminLogin.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f9; /* Background color for the entire page */
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6e8fa5; /* Light blue background color */
+  }
+
+  .login-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px; /* Increased form size */
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    color: #3a83f1; /* Blue heading text color */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Increased margin between form groups */
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin below labels */
+    color: #333; /* Dark gray label text color */
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #3a83f1; /* Blue button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #1e5db4; /* Darker blue on hover */
+  }
+  
+  button.logout-btn {
+    background-color: #f75c5c; /* Red logout button background color */
+  }
+  
+  button.logout-btn:hover {
+    background-color: #e23d3d; /* Darker red on hover */
+  }
+  

@@ -1,0 +1,76 @@
+/* AdminDashboard.css */
+#root {
+  background-color: #6e8fa5;
+}
+
+.admin-dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-dashboard form {
+  display: grid;
+  gap: 10px;
+}
+
+.admin-dashboard label {
+  font-weight: bold;
+}
+
+.admin-dashboard input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.admin-dashboard button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admin-dashboard button:hover {
+  background-color: #2980b9;
+}
+
+.admin-dashboard .added-data {
+  margin-top: 20px;
+}
+
+.admin-dashboard .added-data h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.admin-dashboard .added-data ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-dashboard .added-data li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.admin-dashboard .added-data p {
+  margin: 5px 0;
+}
